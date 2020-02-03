@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession, SQLContext 
 
-print("EXTRACT FROM csv")
-if __name__ == "__main__":
+ if __name__ == "__main__":
+	print("EXTRACT FROM csv")
 	scSpark = SparkSession \
 	.builder \
 	.appName("reading csv") \
